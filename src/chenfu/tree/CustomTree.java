@@ -163,7 +163,7 @@ public class CustomTree<T extends Comparable<T>> {
 //        3.2删除只有一个右子节点的节点：85
 //        tree.remove(new Person("xxx", 85));
 //        4.删除左右两边都有子节点的节点：35
-        tree.remove(new Person("xx", 35));
+        tree.remove(new Person("x", 35));
         System.out.println(Arrays.toString(tree.toArray()));
         System.out.println("修改后节点数量：" + tree.getCount());
     }
