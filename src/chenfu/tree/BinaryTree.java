@@ -1,7 +1,6 @@
 package chenfu.tree;
 
 import chenfu.tree.domain.Person;
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -63,7 +62,6 @@ public class BinaryTree<T extends Comparable<T>> {
         return this.treeData;
     }
 
-    @Test
     public void main() {
         BinaryTree<Person> tree = new BinaryTree<>();
         tree.add(new Person("张三70", 70));

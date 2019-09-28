@@ -1,7 +1,6 @@
 package chenfu.tree;
 
 import chenfu.tree.domain.Person;
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -136,7 +135,6 @@ public class CustomTree<T extends Comparable<T>> {
         }
     }
 
-    @Test
     public void main() {
         CustomTree<Person> tree = new CustomTree<>();
         tree.add(new Person("张三70", 70));
